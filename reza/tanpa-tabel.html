@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Rendang Daging - Tanpa Tabel</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            background-color: #fdfaf6;
+        }
+        .header {
+            background-color: #8B4513; /* Coklat Sadel */
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container-resep {
+            display: flex; /* Kunci: Membuat kolom bahan dan langkah sejajar */
+            padding: 20px;
+            gap: 20px;
+        }
+        .bahan {
+            flex: 1; /* Lebar 1 bagian */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .langkah {
+            flex: 2; /* Lebar 2 bagian, lebih besar dari bahan */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background-color: #3d3d3d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Resep Rendang Daging Sapi Khas Padang</h1>
+    </div>
+
+    <div class="container-resep">
+        <div class="bahan">
+            <h3>Bahan-Bahan</h3>
+            <ul>
+                <li>1 kg Daging Sapi</li>
+                <li>500 ml Santan Kental</li>
+                <li>Bumbu Halus (Lengkap)</li>
+                <li>Daun Kunyit & Daun Jeruk</li>
+                <li>Garam & Gula</li>
+            </ul>
+        </div>
+        <div class="langkah">
+            <h3>Langkah Memasak</h3>
+            <p><strong>1. Tumis Bumbu:</strong> Tumis bumbu halus hingga harum, masukkan daun kunyit dan daun jeruk.</p>
+            <p><strong>2. Masak Daging:</strong> Masukkan daging sapi, aduk hingga berubah warna.</p>
+            <p><strong>3. Tuang Santan:</strong> Tuangkan santan dan masak dengan api kecil sambil terus diaduk hingga santan mengering dan mengeluarkan minyak.</p>
+            <p><strong>4. Sajikan:</strong> Rendang siap disajikan dengan nasi hangat.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Selamat Mencoba!</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas 3 - Halaman Kuliner</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif; /* Font modern */
+            background-color: #FFF8F0;
+        }
+        .header {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.ibb.co/Xz2sW0p/sate-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: 700;
+        }
+        .main-content {
+            display: flex;
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+        }
+        .konten {
+            flex: 2.5;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+        }
+        .sidebar h3 {
+            border-bottom: 2px solid #FFC107;
+            padding-bottom: 10px;
+            margin-top: 0;
+            color: #333;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar li a {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            display: block;
+            padding: 10px 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sidebar li a:hover {
+            background-color: #FFC107;
+            color: #fff;
+        }
+        .konten img {
+            width: 100%; 
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .konten h2 {
+            margin-top: 0;
+            font-size: 2em;
+            color: #d35400;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>nasi goreng aci geming</h1>
+    </div>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <h3>Menu Pilihan</h3>
+            <ul>
+                <li><a href="#">Nasi goreng</a></li>
+                <li><a href="#">minas</a></li>
+                <li><a href="#">mie rebus</a></li>
+                <li><a href="#">Minuman</a></li>
+            </ul>
+        </div>
+        
+        <div class="konten">
+            <img src="nasi.jpg" alt="Nasi Goreng Lezat">
+            <h2>Cita Rasa Terbaik Nusantara</h2>
+            <p>Rasakan kelezatan nasi goreng legendaris dari BUK ACI, yang resepnya diwariskan secara turun-temurun. Dibuat dari bahan pilihan dan bumbu rempah asli Indonesia, setiap suapan memberikan pengalaman kuliner yang tak terlupakan. Sangat cocok dinikmati oleh semua kalangan, dari milenial hingga generasi alpha.</p>
+            <p>Meskipun kualitas premium, harga kami tetap terjangkau agar semua bisa menikmati.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 Reza Ferdiansyah - Semua Hak Cipta Dilindungi</p>
+    </div>
+
+</body>
+</html>
